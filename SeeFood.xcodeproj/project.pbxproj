@@ -13,6 +13,7 @@
 		C649281729B582AD0035DB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C649281529B582AD0035DB33 /* Main.storyboard */; };
 		C649281929B582B10035DB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C649281829B582B10035DB33 /* Assets.xcassets */; };
 		C649281C29B582B10035DB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C649281A29B582B10035DB33 /* LaunchScreen.storyboard */; };
+		C649282429B583330035DB33 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C649282329B583320035DB33 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C649281829B582B10035DB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C649281B29B582B10035DB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C649281D29B582B10035DB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C649282329B583320035DB33 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C649281529B582AD0035DB33 /* Main.storyboard */,
 				C649281829B582B10035DB33 /* Assets.xcassets */,
 				C649281A29B582B10035DB33 /* LaunchScreen.storyboard */,
+				C649282329B583320035DB33 /* Inceptionv3.mlmodel */,
 				C649281D29B582B10035DB33 /* Info.plist */,
 			);
 			path = SeeFood;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C649281429B582AD0035DB33 /* ViewController.swift in Sources */,
+				C649282429B583330035DB33 /* Inceptionv3.mlmodel in Sources */,
 				C649281029B582AD0035DB33 /* AppDelegate.swift in Sources */,
 				C649281229B582AD0035DB33 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +294,8 @@
 				DEVELOPMENT_TEAM = YS5755Y5HH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera yo!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photos!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +324,8 @@
 				DEVELOPMENT_TEAM = YS5755Y5HH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera yo!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photos!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
